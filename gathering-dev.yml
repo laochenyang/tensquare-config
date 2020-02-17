@@ -10,6 +10,8 @@ spring:
     password: 123456
   redis:
     host: 192.168.146.129
+  rabbitmq:
+    host: 192.168.25.135
   jpa:
     database: mysql
     show-sql: true
