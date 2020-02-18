@@ -4,7 +4,7 @@ spring:
   application:
     name: tensquare-manager
   rabbitmq:
-    host: 192.168.25.135
+    host: 192.168.25.128
 eureka:
   client:
     service-url:
