@@ -5,6 +5,6 @@ spring:
     name: tensquare-search
   data:
     elasticsearch:
-      cluster-nodes: 192.168.25.135:9300
+      cluster-nodes: 192.168.25.128:9300
   rabbitmq:
-    host: 192.168.25.135
+    host: 192.168.25.128
