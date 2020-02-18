@@ -5,7 +5,7 @@ spring:
     name: tensquare-recruit
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.25.135:3306/tensquare_recruit?CharacterEncoding=utf-8
+    url: jdbc:mysql://192.168.25.128:3306/tensquare_recruit?CharacterEncoding=utf-8
     username: root
     password: 123456
   jpa:
@@ -13,4 +13,4 @@ spring:
     show-sql: true
     generate-ddl: true
   rabbitmq:
-    host: 192.168.25.135
+    host: 192.168.25.128
