@@ -22,3 +22,24 @@ zuul:
     tensquare-qa:
       path: /qa/**
       serviceId: tensquare-qa
+    tensquare-article:
+      path: /article/**
+      serviceId: tensquare-article
+    tensquare-friend:
+      path: /friend/**
+      serviceId: tensquare-friend
+    tensquare-gathering:
+      path: /gathering/**
+      serviceId: tensquare-gathering
+    tensquare-recruit:
+      path: /recruit/**
+      serviceId: tensquare-recruit
+    tensquare-search:
+      path: /search/**
+      serviceId: tensquare-search
+    tensquare-sms:
+      path: /sms/**
+      serviceId: tensquare-sms
+    tensquare-spit:
+      path: /spit/**
+      serviceId: tensquare-spit
