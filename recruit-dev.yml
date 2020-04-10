@@ -5,7 +5,7 @@ spring:
     name: tensquare-recruit
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
-    url: jdbc:mysql://192.168.25.128:3306/tensquare_recruit?CharacterEncoding=utf-8
+    url: jdbc:mysql://106.13.38.37:3306/tensquare_recruit?CharacterEncoding=utf-8
     username: root
     password: 123456
   jpa:
@@ -13,10 +13,10 @@ spring:
     show-sql: true
     generate-ddl: true
   rabbitmq:
-    host: 192.168.25.128
+    host: 106.13.38.37
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.25.128:6868/eureka/
+      defaultZone: http://106.13.38.37:6868/eureka/
   instance:
     prefer-ip-address: true
