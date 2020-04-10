@@ -5,12 +5,12 @@ spring:
     name: tensquare-search
   data:
     elasticsearch:
-      cluster-nodes: 192.168.25.128:9300
+      cluster-nodes: 106.13.38.37:9300
   rabbitmq:
-    host: 192.168.25.128
+    host: 106.13.38.37
 eureka:
   client:
     service-url:
-      defaultZone: http://192.168.25.128:6868/eureka/
+      defaultZone: http://106.13.38.37:6868/eureka/
   instance:
     prefer-ip-address: true
